@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .calculator-section {
+    width: 300px;
+    height: 500px;
+  }
+}
+
+@media (min-width: 1800px) {
+    .calculator-section {
+      width: 400px;
+      height: 600px;
+    }
+  }

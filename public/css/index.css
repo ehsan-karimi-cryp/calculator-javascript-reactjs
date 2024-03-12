@@ -9,19 +9,38 @@
     format("true-type");
 }
 html {
-  font-family: "Bree Serif" , serif;
+  font-family: "Bree Serif", serif;
   font-size: 100%;
 }
 body {
   background-color: #c0ffff;
 }
 #root {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .calculator-section {
   border: 2px solid black;
-  width: 400px;
-  height: 500px;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px #98b1f5;
 }
-
+.screen-part {
+  background-color: #465fa5;
+  text-align: right;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 0.5rem;
+}
+.first-screen-part {
+  color: #87d0da;
+  font-size: 1.5rem;
+}
+.second-screen-part {
+  color: #bfcdf1;
+  font-size: 2.5rem;
+}
